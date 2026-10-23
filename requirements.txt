@@ -1,0 +1,6 @@
+# no torch/torchvision here, the app runs the exported ONNX graph on CPU
+# through onnxruntime instead and does its own PIL preprocessing
+streamlit==1.66.1
+onnxruntime==1.31.0
+Pillow==11.3.0
+numpy==2.4.4
